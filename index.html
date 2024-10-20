@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Conflict News</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Global Conflict News</h1>
+    <p>Your trusted source for updates on global conflicts, categorized by continent</p>
+  </header>
+
+  <!-- Filter Section -->
+  <div id="filter-section">
+    <label for="continent-select">Filter by continent:</label>
+    <select id="continent-select" onchange="filterNews()">
+      <option value="all">All</option>
+      <option value="africa">Africa</option>
+      <option value="asia">Asia</option>
+      <option value="europe">Europe</option>
+      <option value="central-america">Central America</option>
+      <option value="americas">South America</option>
+    </select>
+  </div>
+
+  <!-- News Section -->
+  <main id="news-section">
+    
+    <!-- Europe -->
+    <article class="news-item europe">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Europe_satellite_orthographic.jpg/979px-Europe_satellite_orthographic.jpg" alt="Europe satellite image">
+      <h2><img src="https://flagcdn.com/w320/ua.png" alt="Ukraine Flag" style="width: 30px;"> Russian Invasion of Ukraine</h2>
+      <p>Russian forces have successfully captured Kherson in the ongoing full-scale invasion of Ukraine. Fighting continues as Ukraine mounts counteroffensives in key areas.</p>
+    </article>
+
+    <article class="news-item europe">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Europe_satellite_orthographic.jpg/979px-Europe_satellite_orthographic.jpg" alt="Europe satellite image">
+      <h2><img src="https://flagcdn.com/w320/pl.png" alt="Poland Flag" style="width: 30px;"> Weaponization of Migrants on Poland's Border</h2>
+      <p>Russia and Belarus are weaponizing migrants by sending thousands of illegal immigrants to attempt to cross the Polish border, resulting in 4 Polish soldiers being killed.</p>
+    </article>
+
+    <article class="news-item europe">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Europe_satellite_orthographic.jpg/979px-Europe_satellite_orthographic.jpg" alt="Europe satellite image">
+      <h2><img src="https://flagcdn.com/w320/ee.png" alt="Estonia Flag" style="width: 30px;"> Russian Cyber Attack on Estonia</h2>
+      <p>Russian cyberattack on Estonian Defence Force payroll system exposed the details of 500 Intelligence and SOF Forces.</p>
+    </article>
+
+    <article class="news-item europe">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Europe_satellite_orthographic.jpg/979px-Europe_satellite_orthographic.jpg" alt="Europe satellite image">
+      <h2><img src="https://flagcdn.com/w320/md.png" alt="Moldova Flag" style="width: 30px;"> Russia Fortifies Transnistria</h2>
+      <p>Russia has fortified Transnistria with an additional 5,000 troops. 10,000 Ukrainian troops are approaching the breakaway region of Moldova.</p>
+    </article>
+
+    <article class="news-item europe">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Europe_satellite_orthographic.jpg/979px-Europe_satellite_orthographic.jpg" alt="Europe satellite image">
+      <h2><img src="https://flagcdn.com/w320/by.png" alt="Belarus Flag" style="width: 30px;"> Belarus Troops at Ukraine's Border</h2>
+      <p>Belarus is moving over 50,000 troops to the Ukrainian border, raising questions of whether they are defending or preparing to join the conflict alongside Russia.</p>
+    </article>
+
+    <!-- Africa -->
+    <article class="news-item africa">
+      <img src="https://www.worldatlas.com/r/w768/webimage/countrys/africasatview.jpg" alt="Africa satellite image">
+      <h2><img src="https://flagcdn.com/w320/ng.png" alt="Nigeria Flag" style="width: 30px;"> ISIS Attacks in Nigeria</h2>
+      <p>ISIS militants have massacred civilians in four Christian villages in northern Nigeria, deepening the humanitarian crisis in the region.</p>
+    </article>
+
+    <article class="news-item africa">
+      <img src="https://www.worldatlas.com/r/w768/webimage/countrys/africasatview.jpg" alt="Africa satellite image">
+      <h2><img src="https://flagcdn.com/w320/sd.png" alt="Sudan Flag" style="width: 30px;"> Islamic Insurgency in Sudan</h2>
+      <p>An ongoing insurgency in Sudan has left the government struggling to regain control, with extremist groups gaining ground in key regions.</p>
+    </article>
+
+    <article class="news-item africa">
+      <img src="https://www.worldatlas.com/r/w768/webimage/countrys/africasatview.jpg" alt="Africa satellite image">
+      <h2><img src="https://flagcdn.com/w320/za.png" alt="South Africa Flag" style="width: 30px;"> Riots in South Africa</h2>
+      <p>Country-wide riots against white farm owners and perceived colonial injustice have resulted in the deaths of 1,500 people.</p>
+    </article>
+
+    <article class="news-item africa">
+      <img src="https://www.worldatlas.com/r/w768/webimage/countrys/africasatview.jpg" alt="Africa satellite image">
+      <h2><img src="https://flagcdn.com/w320/ma.png" alt="Morocco Flag" style="width: 30px;"> Morocco's Counter Terrorism Raids</h2>
+      <p>Moroccan Gendemerie forces arrested 130 and killed 27 ISIS-linked militants during nationwide raids, with 3 officers killed in the process.</p>
+    </article>
+
+    <article class="news-item africa">
+      <img src="https://www.worldatlas.com/r/w768/webimage/countrys/africasatview.jpg" alt="Africa satellite image">
+      <h2><img src="https://flagcdn.com/w320/so.png" alt="Somalia Flag" style="width: 30px;"> Piracy Increase in Somalia</h2>
+      <p>Piracy reports in Somalia have increased by 49% over the past year, likely due to worsening poverty and regional instability.</p>
+    </article>
+
+    <article class="news-item africa">
+      <img src="https://www.worldatlas.com/r/w768/webimage/countrys/africasatview.jpg" alt="Africa satellite image">
+      <h2><img src="https://flagcdn.com/w320/ml.png" alt="Mali Flag" style="width: 30px;"> Wagner Group Atrocities in Mali</h2>
+      <p>Russian Wagner Group forces, leading government forces in Mali, have massacred over 4,500 civilians in a bid to suppress rival groups.</p>
+    </article>
+
+    <!-- Asia -->
+    <article class="news-item asia">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Asia_satellite_orthographic.jpg/350px-Asia_satellite_orthographic.jpg" alt="Asia satellite image">
+      <h2><img src="https://flagcdn.com/w320/sy.png" alt="Syria Flag" style="width: 30px;"> ISIS Expands Territory in Syria</h2>
+      <p>ISIS activity is increasing in Syria, with 4 suicide bombings and 50km of territory taken from the Assad regime.</p>
+    </article>
+
+    <article class="news-item asia">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Asia_satellite_orthographic.jpg/350px-Asia_satellite_orthographic.jpg" alt="Asia satellite image">
+      <h2><img src="https://flagcdn.com/w320/ir.png" alt="Iran Flag" style="width: 30px;"> Anti-Western Forces in Iran</h2>
+      <p>Anti-western regime forces in Iran have been assassinating pro-democracy, secular, and pro-Western groups in ongoing violence.</p>
+    </article>
+
+    <article class="news-item asia">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Asia_satellite_orthographic.jpg/350px-Asia_satellite_orthographic.jpg" alt="Asia satellite image">
+      <h2><img src="https://flagcdn.com/w320/af.png" alt="Afghanistan Flag" style="width: 30px;"> Taliban Arrests in Afghanistan</h2>
+      <p>The Taliban have arrested 10,000 former Afghan Army personnel aligned with the US/UK Coalition. 2,000 have been sentenced to death, with remaining trials starting next month.</p>
+    </article>
+
+    <article class="news-item asia">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Asia_satellite_orthographic.jpg/350px-Asia_satellite_orthographic.jpg" alt="Asia satellite image">
+      <h2><img src="https://flagcdn.com/w320/af.png" alt="Afghanistan Flag" style="width: 30px;"> Taliban Ban on Women in Afghanistan</h2>
+      <p>The Taliban have banned women from all public places and prohibited them from working in education or journalism.</p>
+    </article>
+
+    <article class="news-item asia">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Asia_satellite_orthographic.jpg/350px-Asia_satellite_orthographic.jpg" alt="Asia satellite image">
+      <h2><img src="https://flagcdn.com/w320/iq.png" alt="Iraq Flag" style="width: 30px;"> Shia Militias in Iraq</h2>
+      <p>Iranian-backed Shia militias are believed to be targeting US/UK Coalition forces across Iraq. US commanders plan to increase air defense across all coalition locations.</p>
+    </article>
+
+    <article class="news-item asia">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Asia_satellite_orthographic.jpg/350px-Asia_satellite_orthographic.jpg" alt="Asia satellite image">
+      <h2><img src="https://flagcdn.com/w320/il.png" alt="Israel Flag" style="width: 30px;"> Israel's Invasion of Palestine</h2>
+      <p>Israel's invasion of Palestine is in its 13th month, with 89% of Hamas's combat power reportedly destroyed.</p>
+    </article>
+
+    <article class="news-item asia">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Asia_satellite_orthographic.jpg/350px-Asia_satellite_orthographic.jpg" alt="Asia satellite image">
+      <h2><img src="https://flagcdn.com/w320/lb.png" alt="Lebanon Flag" style="width: 30px;"> Hezbollah Launches Missiles into Israel</h2>
+      <p>Hezbollah launched 193 ballistic missiles into Israel, of which 93% were intercepted by defense systems. 23 Israeli civilians were killed by strikes.</p>
+    </article>
+
+    <!-- Central America -->
+    <article class="news-item central-america">
+      <img src="https://c8.alamy.com/zooms/9/69d25a551d3148db8039a404f97f5aae/a5e278.jpg" alt="Central America satellite image">
+      <h2><img src="https://flagcdn.com/w320/mx.png" alt="Mexico Flag" style="width: 30px;"> Mexico Overrun by Drug Cartels</h2>
+      <p>Drug cartels have gained significant power in Mexico, with the government struggling to control vast territories, leading to increased violence and instability.</p>
+    </article>
+
+    <article class="news-item central-america">
+      <img src="https://c8.alamy.com/zooms/9/69d25a551d3148db8039a404f97f5aae/a5e278.jpg" alt="Central America satellite image">
+      <h2><img src="https://flagcdn.com/w320/sv.png" alt="El Salvador Flag" style="width: 30px;"> MS-13 Mass Imprisonment in El Salvador</h2>
+      <p>El Salvador's government has taken drastic measures to combat MS-13, resulting in the mass imprisonment and deaths of gang members.</p>
+    </article>
+
+    <article class="news-item central-america">
+      <img src="https://c8.alamy.com/zooms/9/69d25a551d3148db8039a404f97f5aae/a5e278.jpg" alt="Central America satellite image">
+      <h2><img src="https://flagcdn.com/w320/ht.png" alt="Haiti Flag" style="width: 30px;"> UN Peacekeeping in Haiti</h2>
+      <p>Nigerian UN peacekeeping troops, with US air support, have entered Haiti to restore order amidst national disorder.</p>
+    </article>
+
+    <!-- South America -->
+    <article class="news-item americas">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/South_America_-_Blue_Marble_orthographic.jpg/220px-South_America_-_Blue_Marble_orthographic.jpg" alt="South America satellite image">
+      <h2><img src="https://flagcdn.com/w320/br.png" alt="Brazil Flag" style="width: 30px;"> Rising Drug Cartel Violence in Brazil</h2>
+      <p>Drug cartel violence in Brazil has risen by 61% over the last five years, with the government struggling to control the situation.</p>
+    </article>
+
+    <article class="news-item americas">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/South_America_-_Blue_Marble_orthographic.jpg/220px-South_America_-_Blue_Marble_orthographic.jpg" alt="South America satellite image">
+      <h2><img src="https://flagcdn.com/w320/ar.png" alt="Argentina Flag" style="width: 30px;"> Calls for Action on Falkland Islands</h2>
+      <p>Argentinian opposition is calling for military action to reclaim the Falkland Islands, though the government is unlikely to act on this pressure.</p>
+    </article>
+
+    <article class="news-item americas">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/South_America_-_Blue_Marble_orthographic.jpg/220px-South_America_-_Blue_Marble_orthographic.jpg" alt="South America satellite image">
+      <h2><img src="https://flagcdn.com/w320/pe.png" alt="Peru Flag" style="width: 30px;"> Forestry Workers Killed in Peru</h2>
+      <p>29 forestry workers have been killed by local tribes in Peru who accused them of destroying their land.</p>
+    </article>
+
+    <article class="news-item americas">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/South_America_-_Blue_Marble_orthographic.jpg/220px-South_America_-_Blue_Marble_orthographic.jpg" alt="South America satellite image">
+      <h2><img src="https://flagcdn.com/w320/co.png" alt="Colombia Flag" style="width: 30px;"> Drug Cartel Violence in Colombia</h2>
+      <p>Drug cartel violence in Colombia has spiked in recent months, with over 2,000 fatalities reported in clashes between rival cartels and security forces.</p>
+    </article>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>A Website made for JHUB Module 1a by Alex O</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
+
